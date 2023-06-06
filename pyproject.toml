@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "docquil"
+version = "0.1.0"
+description = "Querry Documents on GCloud using Python, Langchain and OpenAI"
+authors = ["Libran Techie <brightkoech@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "^0.0.190"
+black = "^23.3.0"
+flake8 = "^6.0.0"
+openai = "^0.27.7"
+pypdf2 = "^3.0.1"
+chroma = "^0.2.0"
+tiktoken = "^0.4.0"
+google-auth-oauthlib = "^1.0.0"
+python-dotenv = "^1.0.0"
+google-api-python-client = "^2.88.0"
+chromadb = "^0.3.26"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
